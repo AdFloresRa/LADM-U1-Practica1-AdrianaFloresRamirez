@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0A1550"
+    tools:context=".MainActivity3">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EDUCATIONAL APPS FOR TEACHERS"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+    <!-- FILA 1 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#3F51B5"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            >
+
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="140dp"
+                android:src="@drawable/audicion"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Audicion"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingRight="5dp"
+            >
+
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="140dp"
+                android:src="@drawable/dreamweaver"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dreamweaver"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="140dp"
+                android:src="@drawable/experience"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Experience"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <!-- FILA 2 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#3F51B5"
+        android:layout_marginTop="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            >
+
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="140dp"
+                android:src="@drawable/ilustrador"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ilustrador"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingRight="5dp"
+            >
+
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="140dp"
+                android:src="@drawable/indesign"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Indesing"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="140dp"
+                android:src="@drawable/lightroom"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lightroom"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <!-- FILA 3 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#3F51B5"
+        android:layout_marginTop="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            >
+
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="140dp"
+                android:src="@drawable/photoshop"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Photoshop"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingRight="5dp"
+            >
+
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="140dp"
+                android:src="@drawable/postProduccion"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PostProducc"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="125dp"
+                android:layout_height="140dp"
+                android:src="@drawable/primerMinistro"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PrimerMinis"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    
+
+</LinearLayout>
